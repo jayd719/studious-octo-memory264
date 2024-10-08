@@ -1,0 +1,55 @@
+/*
+ -------------------------------------
+ File:    Testing.txt
+ Project: sing8282_l03
+ file description
+ -------------------------------------
+ Author:  Jashandeep Singh
+ ID:      169018282
+ Email:   sing8282@mylaurier.ca
+ Version  2024-01-28
+ -------------------------------------
+ */
+
+------------------
+Task 1
+Test: sum_integers
+
+Enter integers, one per line:
+1
+2
+3 4
+5
+q
+Sum: 11
+
+
+
+------------------
+Task 2
+Test: sum_three_integers
+
+Enter three comma-separated integers:2,five,9
+The integers were not properly entered.
+Enter three comma-separated integers:2,4
+The integers were not properly entered.
+Enter three comma-separated integers:2,4
+The integers were not properly entered.
+Enter three comma-separated integers:2,4,6,9
+Sum: 12
+
+
+---------------
+Task 3
+Test: int_array_read
+
+Enter 4 values for an array of int.
+Value for index 0:6.9
+Value for index 1:twelve
+Not a valid integer
+Value for index 1:12
+Value for index 2:
+Not a valid integer
+Value for index 2:5 6 8
+Value for index 3:-8
+{6, 1, 5, -8}

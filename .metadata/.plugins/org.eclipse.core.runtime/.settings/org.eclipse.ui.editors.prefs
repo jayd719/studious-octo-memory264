@@ -1,0 +1,10 @@
+LSP4EReadOccurrenceIndicationColor=27,98,145
+LSP4ETextOccurrenceIndicationColor=27,98,145
+LSP4EWriteOccurrenceIndicationColor=27,98,145
+TM4EMatchingPairColor=27,98,145
+eclipse.preferences.version=1
+org.eclipse.cdt.ui.occurrenceIndicationColor=27,98,145
+org.eclipse.cdt.ui.overrideIndicatorColor=27,98,145
+org.eclipse.cdt.ui.writeOccurrenceIndicationColor=27,98,145
+org.eclipse.ui.editors.stickyLinesSeparatorColor=81,86,88
+spellingEngine=org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine

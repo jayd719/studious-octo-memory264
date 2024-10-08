@@ -1,0 +1,15 @@
+18:59:45 **** Incremental Build of configuration Debug for project sing8282_a10 ****
+make all 
+Building file: ../src/algorithm_ptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/algorithm_ptest.d" -MT"src/algorithm_ptest.o" -o "src/algorithm_ptest.o" "../src/algorithm_ptest.c"
+Finished building: ../src/algorithm_ptest.c
+ 
+Building target: sing8282_a10
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_a10"  ./src/algorithm.o ./src/algorithm_ptest.o ./src/edgelist.o ./src/edgelist_ptest.o ./src/graph.o ./src/graph_ptest.o ./src/heap.o ./src/queue_stack.o   
+Finished building target: sing8282_a10
+ 
+
+18:59:46 Build Finished. 0 errors, 0 warnings. (took 341ms)
+

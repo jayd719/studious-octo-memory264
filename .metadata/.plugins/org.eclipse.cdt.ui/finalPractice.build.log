@@ -1,0 +1,15 @@
+12:13:38 **** Incremental Build of configuration Debug for project finalPractice ****
+make all 
+Building file: ../src/finalPractice.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/finalPractice.d" -MT"src/finalPractice.o" -o "src/finalPractice.o" "../src/finalPractice.c"
+Finished building: ../src/finalPractice.c
+ 
+Building target: finalPractice
+Invoking: MacOS X C Linker
+gcc  -o "finalPractice"  ./src/Strings1.o ./src/finalPractice.o   
+Finished building target: finalPractice
+ 
+
+12:13:38 Build Finished. 0 errors, 0 warnings. (took 346ms)
+

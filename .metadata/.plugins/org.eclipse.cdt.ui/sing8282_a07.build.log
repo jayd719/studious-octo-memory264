@@ -1,0 +1,15 @@
+19:24:16 **** Incremental Build of configuration Debug for project sing8282_a07 ****
+make all 
+Building file: ../src/myrecord_bst.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/myrecord_bst.d" -MT"src/myrecord_bst.o" -o "src/myrecord_bst.o" "../src/myrecord_bst.c"
+Finished building: ../src/myrecord_bst.c
+ 
+Building target: sing8282_a07
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_a07"  ./src/bst.o ./src/bst_ptest.o ./src/myrecord_bst.o ./src/myrecord_bst_ptest.o ./src/queue_stack.o ./src/tree.o ./src/tree_ptest.o   
+Finished building target: sing8282_a07
+ 
+
+19:24:17 Build Finished. 0 errors, 0 warnings. (took 348ms)
+

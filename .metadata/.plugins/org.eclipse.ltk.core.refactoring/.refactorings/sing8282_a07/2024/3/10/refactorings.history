@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sing8282_a07/src/tree_ptest.c &apos; to &apos;marks.txt &apos;" description="Rename resource &apos;tree_ptest.c &apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/tree_ptest.c " name="marks.txt " stamp="1709950674829" updateReferences="true"/>
+</session>

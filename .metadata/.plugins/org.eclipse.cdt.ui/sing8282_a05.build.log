@@ -1,0 +1,20 @@
+13:12:59 **** Incremental Build of configuration Debug for project sing8282_a05 ****
+make all 
+Building file: ../src/bigint.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/bigint.d" -MT"src/bigint.o" -o "src/bigint.o" "../src/bigint.c"
+Finished building: ../src/bigint.c
+ 
+Building file: ../src/bigint_ptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/bigint_ptest.d" -MT"src/bigint_ptest.o" -o "src/bigint_ptest.o" "../src/bigint_ptest.c"
+Finished building: ../src/bigint_ptest.c
+ 
+Building target: sing8282_a05
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_a05"  ./src/bigint.o ./src/bigint_ptest.o ./src/dllist.o ./src/dllist_ptest.o ./src/myrecord_sllist.o ./src/myrecord_sllist_ptest.o   
+Finished building target: sing8282_a05
+ 
+
+13:12:59 Build Finished. 0 errors, 0 warnings. (took 457ms)
+

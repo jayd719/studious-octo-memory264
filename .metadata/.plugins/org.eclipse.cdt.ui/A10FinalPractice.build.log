@@ -1,0 +1,25 @@
+06:25:33 **** Incremental Build of configuration Debug for project A10FinalPractice ****
+make all 
+Building file: ../src/graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/graph.d" -MT"src/graph.o" -o "src/graph.o" "../src/graph.c"
+../src/graph.c:24:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+../src/graph.c:58:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+../src/graph.c:22:17: warning: unused function 'newADJnode' [-Wunused-function]
+static ADJNODE* newADJnode(int nid, int weight) {
+                ^
+3 warnings generated.
+Finished building: ../src/graph.c
+ 
+Building target: A10FinalPractice
+Invoking: MacOS X C Linker
+gcc  -o "A10FinalPractice"  ./src/graph.o ./src/graph_ptest.o ./src/queue_stack.o   
+Finished building target: A10FinalPractice
+ 
+
+06:25:33 Build Finished. 0 errors, 3 warnings. (took 348ms)
+

@@ -1,0 +1,102 @@
+06:23:44 **** Incremental Build of configuration Debug for project A10FinalPractice ****
+make all 
+Building file: ../src/graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/graph.d" -MT"src/graph.o" -o "src/graph.o" "../src/graph.c"
+../src/graph.c:24:1: warning: non-void function does not return a value [-Wreturn-type]
+Finished building: ../src/graph.c
+}
+ 
+^
+Building file: ../src/graph_ptest.c
+../src/graph.c:28:9: warning: unused variable 'newGraph' [-Wunused-variable]
+        GRAPH *newGraph = (GRAPH*) malloc(sizeof(GRAPH));
+               ^
+../src/graph.c:30:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+../src/graph.c:47:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+../src/graph.c:22:17: warning: unused function 'newADJnode' [-Wunused-function]
+static ADJNODE* newADJnode(int nid, int weight) {
+                ^
+5 warnings generated.
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/graph_ptest.d" -MT"src/graph_ptest.o" -o "src/graph_ptest.o" "../src/graph_ptest.c"
+Finished building: ../src/graph_ptest.c
+ 
+Building file: ../src/queue_stack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/queue_stack.d" -MT"src/queue_stack.o" -o "src/queue_stack.o" "../src/queue_stack.c"
+Finished building: ../src/queue_stack.c
+ 
+Building target: A10FinalPractice
+Invoking: MacOS X C Linker
+gcc  -o "A10FinalPractice"  ./src/graph.o ./src/graph_ptest.o ./src/queue_stack.o   
+Finished building target: A10FinalPractice
+ 
+06:23:51 **** Incremental Build of configuration Debug for project A10FinalPractice ****
+make all 
+make: Nothing to be done for `all'.
+06:25:33 **** Incremental Build of configuration Debug for project A10FinalPractice ****
+make all 
+Building file: ../src/graph.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/graph.d" -MT"src/graph.o" -o "src/graph.o" "../src/graph.c"
+../src/graph.c:24:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+../src/graph.c:58:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+../src/graph.c:22:17: warning: unused function 'newADJnode' [-Wunused-function]
+static ADJNODE* newADJnode(int nid, int weight) {
+                ^
+3 warnings generated.
+Finished building: ../src/graph.c
+ 
+Building target: A10FinalPractice
+Invoking: MacOS X C Linker
+gcc  -o "A10FinalPractice"  ./src/graph.o ./src/graph_ptest.o ./src/queue_stack.o   
+Finished building target: A10FinalPractice
+ 
+13:05:28 **** Build of configuration Debug for project sing8282_l03 ****
+make all 
+Building file: ../src/int_array_read.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/int_array_read.d" -MT"src/int_array_read.o" -o "src/int_array_read.o" "../src/int_array_read.c"
+Finished building: ../src/int_array_read.c
+ 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/sum_integers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum_integers.d" -MT"src/sum_integers.o" -o "src/sum_integers.o" "../src/sum_integers.c"
+Finished building: ../src/sum_integers.c
+ 
+Building file: ../src/sum_three_integers.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum_three_integers.d" -MT"src/sum_three_integers.o" -o "src/sum_three_integers.o" "../src/sum_three_integers.c"
+Finished building: ../src/sum_three_integers.c
+ 
+Building target: sing8282_l03
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_l03"  ./src/int_array_read.o ./src/main.o ./src/sum_integers.o ./src/sum_three_integers.o   
+Finished building target: sing8282_l03
+ 
+13:05:51 **** Incremental Build of configuration Debug for project sing8282_l03 ****
+make all 
+make: Nothing to be done for `all'.
+13:06:26 **** Incremental Build of configuration Debug for project sing8282_l03 ****
+make all 
+make: Nothing to be done for `all'.
+16:49:06 **** Incremental Build of configuration Debug for project sing8282_l03 ****
+make all 
+make: Nothing to be done for `all'.
+17:20:38 **** Incremental Build of configuration Debug for project sing8282_l03 ****
+make all 
+make: Nothing to be done for `all'.

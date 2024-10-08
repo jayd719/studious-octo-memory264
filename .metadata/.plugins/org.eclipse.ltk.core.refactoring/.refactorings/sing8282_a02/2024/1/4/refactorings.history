@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sing8282_a02/src/ polynomial_ptest.c&apos; to &apos;polynomial_ptest.c&apos;" description="Rename resource &apos; polynomial_ptest.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ polynomial_ptest.c" name="polynomial_ptest.c" stamp="1706209621040" updateReferences="true"/>
+</session>

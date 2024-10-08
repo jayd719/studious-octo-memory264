@@ -1,0 +1,20 @@
+13:50:48 **** Incremental Build of configuration Debug for project Practice ****
+make all 
+Building file: ../src/Practice.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practice.d" -MT"src/Practice.o" -o "src/Practice.o" "../src/Practice.c"
+../src/Practice.c:222:15: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("%d", sizeof(char));
+                ~~   ^~~~~~~~~~~~
+                %lu
+1 warning generated.
+Finished building: ../src/Practice.c
+ 
+Building target: Practice
+Invoking: MacOS X C Linker
+gcc  -o "Practice"  ./src/Practice.o   
+Finished building target: Practice
+ 
+
+13:50:49 Build Finished. 0 errors, 1 warnings. (took 557ms)
+

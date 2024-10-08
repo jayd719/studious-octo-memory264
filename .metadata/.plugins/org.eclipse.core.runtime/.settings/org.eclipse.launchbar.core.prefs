@@ -1,0 +1,17 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:sing8282_l06,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a10,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a02,org.eclipse.launchbar.core.descriptorType.default\:testProject,org.eclipse.launchbar.core.descriptorType.default\:Practice,org.eclipse.launchbar.core.descriptorType.default\:A7-finalPractice,org.eclipse.launchbar.core.descriptorType.default\:A8-finalPractice,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l04,org.eclipse.launchbar.core.descriptorType.default\:Ppoj,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l08,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a08,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a04,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l02,org.eclipse.launchbar.core.descriptorType.default\:a9-finalPractice,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l10,org.eclipse.launchbar.core.descriptorType.default\:finalPractice,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a06,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a03,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l07,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l05,org.eclipse.launchbar.core.descriptorType.default\:A10FinalPractice,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l09,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a01,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l01,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a09,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a05,org.eclipse.launchbar.core.descriptorType.default\:graphs,org.eclipse.launchbar.core.descriptorType.default\:sing8282_a07,org.eclipse.launchbar.core.descriptorType.default\:sing8282_l03
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_a01/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_a01/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_a02/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_a02/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_a03/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_l01/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_l01/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_l06/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sing8282_l06/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:testProject/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:testProject/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

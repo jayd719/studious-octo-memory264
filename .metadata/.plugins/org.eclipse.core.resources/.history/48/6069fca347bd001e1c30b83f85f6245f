@@ -1,0 +1,83 @@
+/*
+ ============================================================================
+ Name        : Practice.c
+ Author      :
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int a;
+	int *p;
+
+	a = 10;
+	p = &a;
+
+//	*(p + 1) = 20;
+
+	printf("Print Address of both variable\n");
+	printf("%d\n", &a);
+	printf("%d\n\n", p);
+
+	printf("Print value in the variables\n");
+	printf("%d\n", a);
+	printf("%d\n", *p);
+
+	*p = 12;
+	printf("a after *p\n");
+	printf("%d\n", a);
+
+	int b = *(p + 1);
+	printf("%d\n", b);
+
+	printf("ARRAYS\n\n\n");
+	int A[5];
+	A[0] = 1;
+	A[1] = 2;
+	A[2] = 3;
+	A[3] = 4;
+
+	printf("%d\n", A);
+	int *j = A;
+
+	printf("%d\n", j);
+
+	printf("%d", *j);
+
+	printf("\n\n\nMultiDimensional Array\n\n");
+
+	int B[3][3] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+	int (*k)[3];
+	k = B;
+
+	printf("Address of B %d\n", &B);
+	printf("Address of K %d\n", k);
+
+	for (int m = 0; m < 3; m++) {
+		for (int n = 0; n < 3; n++) {
+			printf("%d ", *(*(k + m) + n));
+		}
+		printf("\n");
+	}
+
+	printf("\n\n\n");
+	float C[3][3] = { { 1.1, 2.2, 3.3 }, { 4.4, 5.5, 6.6 }, { 7.7, 8.8, 9.9 } };
+
+	float *v = C;
+
+	for (int l = 0; l < 3; l++) {
+		for (int o = 0; o < 3; o++) {
+			printf("%f ", *((v + l) + o));
+		}
+		printf("\n");
+	}
+
+	char str[10] = "hello";
+}
+

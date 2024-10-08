@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialog">
+		<item key="DIALOG_X_ORIGIN" value="447"/>
+		<item key="DIALOG_Y_ORIGIN" value="110"/>
+		<item key="DIALOG_WIDTH" value="836"/>
+		<item key="DIALOG_HEIGHT" value="738"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|12.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+		</section>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/jashan/Downloads/sing8282_l10.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l09.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l08.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l07.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l06.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l05.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l04.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l03.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l02.zip"/>
+			<item value="/Users/jashan/Downloads/sing8282_l01.zip"/>
+		</list>
+		<section name="ZipFileExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="439"/>
+			<item key="DIALOG_Y_ORIGIN" value="145"/>
+			<item key="DIALOG_WIDTH" value="721"/>
+			<item key="DIALOG_HEIGHT" value="623"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|12.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="52"/>
+		<item key="DIALOG_Y_ORIGIN" value="-11"/>
+		<item key="DIALOG_WIDTH" value="825"/>
+		<item key="DIALOG_HEIGHT" value="727"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|12.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="439"/>
+			<item key="DIALOG_Y_ORIGIN" value="151"/>
+			<item key="DIALOG_WIDTH" value="634"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|12.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+</section>

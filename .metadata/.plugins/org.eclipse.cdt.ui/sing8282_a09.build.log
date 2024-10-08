@@ -1,0 +1,15 @@
+16:40:36 **** Incremental Build of configuration Debug for project sing8282_a09 ****
+make all 
+Building file: ../src/heap.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/heap.d" -MT"src/heap.o" -o "src/heap.o" "../src/heap.c"
+Finished building: ../src/heap.c
+ 
+Building target: sing8282_a09
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_a09"  ./src/common_queue_stack.o ./src/expression_symbol.o ./src/expression_symbol_ptest.o ./src/hash.o ./src/hash_ptest.o ./src/heap.o ./src/heap_ptest.o   
+Finished building target: sing8282_a09
+ 
+
+16:40:36 Build Finished. 0 errors, 0 warnings. (took 343ms)
+

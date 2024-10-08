@@ -1,0 +1,15 @@
+21:01:30 **** Incremental Build of configuration Debug for project sing8282_l07 ****
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: sing8282_l07
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_l07"  ./src/bst_linked.o ./src/data.o ./src/main.o   
+Finished building target: sing8282_l07
+ 
+
+21:01:30 Build Finished. 0 errors, 0 warnings. (took 343ms)
+

@@ -1,0 +1,34 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 4 Test Results File
+ * -------------------------------------
+ * Author:  Jashandeep Singh
+ * ID:      169018282
+ * Email:   sing8282@mylaurier.ca
+ * Version  2024-02-05
+ * -------------------------------------
+ */
+ 
+ ------------------------
+Test read_strings
+
+lines read: 3
+
+Contents of string array
+------------------------
+A short line
+A longer line
+A really long line that never seems to end and goes on and on
+
+------------------------
+Test strings_with_substring
+
+Enter substring: long
+A longer line
+A really long line that never seems to end and goes on and on
+------------------------
+Test strings_length
+
+Enter the length comparison value: 14
+ 

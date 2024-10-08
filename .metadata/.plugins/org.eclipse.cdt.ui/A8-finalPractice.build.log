@@ -1,0 +1,31 @@
+16:58:56 **** Incremental Build of configuration Debug for project A8-finalPractice ****
+make all 
+Building file: ../src/avl.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/avl.d" -MT"src/avl.o" -o "src/avl.o" "../src/avl.c"
+../src/avl.c:18:9: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static* createNode(RECORD data) {
+~~~~~~  ^
+../src/avl.c:24:9: warning: incompatible pointer types returning 'AVLNODE *' (aka 'struct avlnode *') from a function with result type 'int *' [-Wincompatible-pointer-types]
+        return node;
+               ^~~~
+../src/avl.c:35:10: warning: incompatible pointer types assigning to 'AVLNODE *' (aka 'struct avlnode *') from 'int *' [-Wincompatible-pointer-types]
+                *rootp = createNode(data);
+                       ^ ~~~~~~~~~~~~~~~~
+../src/avl.c:131:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+../src/avl.c:139:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../src/avl.c
+ 
+Building target: A8-finalPractice
+Invoking: MacOS X C Linker
+gcc  -o "A8-finalPractice"  ./src/A8-finalPractice.o ./src/avl.o   
+Finished building target: A8-finalPractice
+ 
+
+16:58:56 Build Finished. 0 errors, 5 warnings. (took 347ms)
+

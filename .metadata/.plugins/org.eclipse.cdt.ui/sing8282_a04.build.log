@@ -1,0 +1,15 @@
+13:38:07 **** Incremental Build of configuration Debug for project sing8282_a04 ****
+make all 
+Building file: ../src/myrecord_ptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/myrecord_ptest.d" -MT"src/myrecord_ptest.o" -o "src/myrecord_ptest.o" "../src/myrecord_ptest.c"
+Finished building: ../src/myrecord_ptest.c
+ 
+Building target: sing8282_a04
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_a04"  ./src/myrecord.o ./src/myrecord_ptest.o ./src/mysort.o ./src/mysort_ptest.o ./src/test.o   
+Finished building target: sing8282_a04
+ 
+
+13:38:07 Build Finished. 0 errors, 0 warnings. (took 297ms)
+

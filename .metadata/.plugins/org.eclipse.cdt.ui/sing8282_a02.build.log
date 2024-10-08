@@ -1,0 +1,40 @@
+15:58:17 **** Build of configuration Debug for project sing8282_a02 ****
+make all 
+Building file: ../src/fibonacci.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci.d" -MT"src/fibonacci.o" -o "src/fibonacci.o" "../src/fibonacci.c"
+Finished building: ../src/fibonacci.c
+ 
+Building file: ../src/fibonacci_ptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fibonacci_ptest.d" -MT"src/fibonacci_ptest.o" -o "src/fibonacci_ptest.o" "../src/fibonacci_ptest.c"
+Finished building: ../src/fibonacci_ptest.c
+ 
+Building file: ../src/matrix.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix.d" -MT"src/matrix.o" -o "src/matrix.o" "../src/matrix.c"
+Finished building: ../src/matrix.c
+ 
+Building file: ../src/matrix_ptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix_ptest.d" -MT"src/matrix_ptest.o" -o "src/matrix_ptest.o" "../src/matrix_ptest.c"
+Finished building: ../src/matrix_ptest.c
+ 
+Building file: ../src/polynomial.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/polynomial.d" -MT"src/polynomial.o" -o "src/polynomial.o" "../src/polynomial.c"
+Finished building: ../src/polynomial.c
+ 
+Building file: ../src/polynomial_ptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/polynomial_ptest.d" -MT"src/polynomial_ptest.o" -o "src/polynomial_ptest.o" "../src/polynomial_ptest.c"
+Finished building: ../src/polynomial_ptest.c
+ 
+Building target: sing8282_a02
+Invoking: MacOS X C Linker
+gcc  -o "sing8282_a02"  ./src/fibonacci.o ./src/fibonacci_ptest.o ./src/matrix.o ./src/matrix_ptest.o ./src/polynomial.o ./src/polynomial_ptest.o   
+Finished building target: sing8282_a02
+ 
+
+15:58:18 Build Finished. 0 errors, 0 warnings. (took 795ms)
+
